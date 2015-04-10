@@ -38,7 +38,7 @@ API Integration is an API that combines the SalesForce and Dropbox API Hooks so 
 
 #### Verify Connectivity
 - Using 
-    curl -H "Content-Type: application/json" -d '{"FirstName":"Paul","LastName":"Pogo40","Company":"SOA","Street":"2962 Rosemary LN NE","City":"Rochester","State":"MN","PostalCode":"55906","Email":"paul40@soa.com"}' http://"ND HOST":"ND PORT"/leads (Make sure you use a unique value for both the Email and LastName values)
+    curl -H "authKey:authkey value" -H "Content-Type: application/json" -d '{"FirstName":"Paul","LastName":"Pogo40","Company":"SOA","Street":"2962 Rosemary LN NE","City":"Rochester","State":"MN","PostalCode":"55906","Email":"paul40@soa.com"}' http://"ND HOST":"ND PORT"/leads (Make sure you use a unique value for both the Email and LastName values)
 - The correct response should be:
     {"salesForceStatus":"Success","Dropbox":"Success"}
 - Log in to your Dropbox account
