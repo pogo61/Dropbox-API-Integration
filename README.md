@@ -8,6 +8,7 @@ API Integration is an API that combines the SalesForce and Dropbox API Hooks so 
 
 ### Pre-Reqs
 - Ensure the [Dropbox API Hook](https://github.com/pogo61/Dropbox-API-Hook) is installed
+- Ensure that the [Salesforce API Hook](https://github.com/pogo61/SalesForce-API-Hook) is installed 
 
 ### Getting Started Instructions
 #### Download and Import
